@@ -13,7 +13,7 @@ The goal of this lab was to establish a full-cycle security monitoring pipeline 
 
 ### Phase 1: Telemetry Generation (Windows GPO)
 Windows does not log script content by default. I enabled the following audit policies:
-* **Script Block Logging (Event ID 4104):** Captures the full de-obfuscated script code as it executes.
+* **Script Block Logging (Event ID 4104):** Captures the full de-obfuscated script code as it executes. 
 * **Module Logging (Event ID 4103):** Records the execution of specific PowerShell modules/cmdlets.
 
 ### Phase 2: Data Engineering (Inputs.conf)
